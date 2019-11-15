@@ -25,8 +25,9 @@ class Clock extends React.Component {
   render() {
     if (this.state.time === 0) return (<div>Loading...</div>);
     return (
-      <div>
-        <h1>Current Time: {this.state.time}</h1>
+      <div className="clock">
+        <h1>Clock:</h1>
+        <h1 className="clock-text">Current Time: {this.state.time}</h1>
       </div>
     );
   }

@@ -1,0 +1,10 @@
+.clock {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.clock-text{
+  color: red;
+  font-family: Open Sans;
+}
